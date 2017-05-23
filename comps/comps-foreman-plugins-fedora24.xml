@@ -64,6 +64,7 @@
       <packagereq type="default">rubygem-foreman_vmwareannotations</packagereq>
       <packagereq type="default">rubygem-foreman_xen</packagereq>
       <packagereq type="default">rubygem-graphite-api</packagereq>
+      <packagereq type="default">rubygem-gssapi</packagereq>
       <packagereq type="default">rubygem-hammer_cli_foreman_admin</packagereq>
       <packagereq type="default">rubygem-hammer_cli_foreman_bootdisk</packagereq>
       <packagereq type="default">rubygem-hammer_cli_foreman_discovery</packagereq>
@@ -160,6 +161,7 @@
       <packagereq type="default">rubygem-foreman_vmwareannotations-doc</packagereq>
       <packagereq type="default">rubygem-foreman_xen-doc</packagereq>
       <packagereq type="default">rubygem-graphite-api-doc</packagereq>
+      <packagereq type="default">rubygem-gssapi-doc</packagereq>
       <packagereq type="default">rubygem-hammer_cli_foreman_admin-doc</packagereq>
       <packagereq type="default">rubygem-hammer_cli_foreman_bootdisk-doc</packagereq>
       <packagereq type="default">rubygem-hammer_cli_foreman_discovery-doc</packagereq>

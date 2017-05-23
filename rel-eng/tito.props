@@ -387,6 +387,7 @@ whitelist = rubygem-algebrick
   rubygem-foreman_xen
   rubygem-foreman_templates
   rubygem-graphite-api
+  rubygem-gssapi
   rubygem-hammer_cli_foreman_admin
   rubygem-hammer_cli_foreman_bootdisk
   rubygem-hammer_cli_foreman_discovery
