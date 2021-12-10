@@ -1,3 +1,7 @@
+ruby-smart-proxy-remote-execution-ssh (0.5.0-2) stable; urgency=low
+
+  * Add dependency on ruby-mqtt
+
 ruby-smart-proxy-remote-execution-ssh (0.5.0-1) stable; urgency=low
 
   * 0.5.0 released
