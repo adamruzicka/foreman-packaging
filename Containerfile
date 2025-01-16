@@ -20,5 +20,7 @@ RUN npm install npm2rpm --global
 
 RUN gem install gem2rpm
 
+RUN pip3 install rpmspectool obal
+
 RUN mkdir -p /opt/foreman-packaging
 WORKDIR /opt/foreman-packaging
