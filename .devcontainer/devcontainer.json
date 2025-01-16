@@ -1,0 +1,11 @@
+{
+  "build": {
+    "dockerfile": "../Containerfile",
+    "context": "."
+  },
+  "runArgs": [
+    "--privileged"
+  ],
+  "workspaceFolder": "/opt/foreman-packaging",
+  "workspaceMount": "source=${localWorkspaceFolder},target=/opt/foreman-packaging,type=bind,consistency=cached"
+}
