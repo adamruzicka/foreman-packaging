@@ -17,5 +17,7 @@ RUN dnf -y install nodejs vim git rpmdevtools git-annex-standalone wget ruby jq 
 
 RUN npm install npm2rpm --global
 
+RUN gem install gem2rpm
+
 RUN mkdir -p /opt/foreman-packaging
 WORKDIR /opt/foreman-packaging
