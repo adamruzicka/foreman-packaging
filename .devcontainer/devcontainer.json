@@ -4,7 +4,8 @@
     "context": "."
   },
   "runArgs": [
-    "--privileged"
+    "--privileged",
+    "--platform=linux/amd64"
   ],
   "workspaceFolder": "/opt/foreman-packaging",
   "workspaceMount": "source=${localWorkspaceFolder},target=/opt/foreman-packaging,type=bind,consistency=cached"

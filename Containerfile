@@ -1,4 +1,4 @@
-FROM quay.io/centos/centos:stream9
+FROM --platform=linux/amd64 quay.io/centos/centos:stream9
 
 ENV LC_ALL en_US.UTF-8
 ENV LANG en_US.UTF-8
