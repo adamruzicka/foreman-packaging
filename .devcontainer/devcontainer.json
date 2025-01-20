@@ -3,6 +3,11 @@
     "dockerfile": "../Containerfile",
     "context": "."
   },
+  "customizations": {
+    "vscode": {
+      "extensions": ["ian-h-chamberlain.rpm-specfile"]
+    }
+  },
   "runArgs": [
     "--privileged",
     "--platform=linux/amd64"
