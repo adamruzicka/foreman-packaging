@@ -24,3 +24,6 @@ RUN pip3 install rpmspectool obal
 
 RUN mkdir -p /opt/foreman-packaging
 WORKDIR /opt/foreman-packaging
+
+RUN adduser user --groups mock
+USER user
