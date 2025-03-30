@@ -20,5 +20,5 @@
 /packages/plugins/rubygem-foreman-tasks/ @theforeman/packaging @theforeman/foreman-tasks
 /packages/foreman/*dynflow*/ @theforeman/packaging @theforeman/foreman-tasks
 /packages/plugins/rubygem-smart_proxy_dynflow/ @theforeman/packaging @theforeman/foreman-tasks
-/packages/plugins/rubygem-foreman_templates/ @theforeman/packaging @theforeman/foreman_templates
+/packages/plugins/*foreman_templates/ @theforeman/packaging @theforeman/foreman_templates
 /packages/plugins/rubygem-safemode/ @theforeman/packaging @theforeman/safemode
