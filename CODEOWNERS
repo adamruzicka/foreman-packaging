@@ -25,6 +25,7 @@
 
 # foreman-tasks
 /dependencies/*/dynflow/ @theforeman/packaging @theforeman/foreman-tasks
+/dependencies/*/hammer_cli_foreman_tasks/ @theforeman/packaging @theforeman/foreman-tasks
 /plugins/smart_proxy_dynflow/ @theforeman/packaging @theforeman/foreman-tasks
 /plugins/ruby-foreman-tasks/ @theforeman/packaging @theforeman/foreman-tasks
 
@@ -37,6 +38,7 @@
 
 # puppet
 /plugins/*puppet/ @theforeman/packaging @theforeman/puppet
+/dependencies/*/hammer_cli_foreman_puppet/ @theforeman/packaging @theforeman/puppet
 
 # remote-execution
 /plugins/*remote*execution*/ @theforeman/packaging @theforeman/remote-execution
@@ -44,7 +46,9 @@
 
 # salt
 /plugins/*salt/ @theforeman/packaging @theforeman/salt
+/dependencies/*/hammer_cli_foreman_salt/ @theforeman/packaging @theforeman/salt
 
 # webhooks
 /plugins/ruby-foreman-webhooks/ @theforeman/packaging @theforeman/webhooks
 /plugins/smart_proxy_shellhooks/ @theforeman/packaging @theforeman/webhooks
+/dependencies/*/hammer_cli_foreman_webhooks/ @theforeman/packaging @theforeman/webhooks
