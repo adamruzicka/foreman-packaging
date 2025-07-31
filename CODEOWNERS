@@ -1,22 +1,50 @@
 * @theforeman/packaging
+
+# Individual teams below. Please group them and keep them sorted
+
+# ansible
 /plugins/*ansible/ @theforeman/packaging @theforeman/ansible
 /dependencies/*/*ansible/ @theforeman/packaging @theforeman/ansible
-/plugins/*remote*execution*/ @theforeman/packaging @theforeman/remote-execution
-/dependencies/*/*remote_execution*/ @theforeman/packaging @theforeman/remote-execution
-/plugins/*discovery/ @theforeman/packaging @theforeman/discovery
-/dependencies/*/*discovery/ @theforeman/packaging @theforeman/discovery
+
+# atix
+/plugins/*snapshot-management/ @theforeman/packaging @theforeman/atix
+
+# bootdisk
 /plugins/*bootdisk/ @theforeman/packaging @theforeman/bootdisk
 /dependencies/*/*bootdisk/ @theforeman/packaging @theforeman/bootdisk
-/plugins/*snapshot-management/ @theforeman/packaging @theforeman/atix
-/plugins/*puppet/ @theforeman/packaging @theforeman/puppet
-/plugins/*salt/ @theforeman/packaging @theforeman/salt
-/plugins/*fog-proxmox/ @theforeman/packaging @theforeman/proxmox
+
+# cli
+/dependencies/*/apipie-* @theforeman/packaging @theforeman/cli
+
+# discovery
+/plugins/*discovery/ @theforeman/packaging @theforeman/discovery
+/dependencies/*/*discovery/ @theforeman/packaging @theforeman/discovery
+
+# dm-drogeriemarkt
+/plugins/ruby-foreman-rescue/ @theforeman/packaging @theforeman/dm-drogeriemarkt
+
+# foreman-tasks
 /dependencies/*/dynflow/ @theforeman/packaging @theforeman/foreman-tasks
 /plugins/smart_proxy_dynflow/ @theforeman/packaging @theforeman/foreman-tasks
 /plugins/ruby-foreman-tasks/ @theforeman/packaging @theforeman/foreman-tasks
-/plugins/ruby-foreman-webhooks/ @theforeman/packaging @theforeman/webhooks
-/plugins/smart_proxy_shellhooks/ @theforeman/packaging @theforeman/webhooks
+
+# foreman_templates
 /plugins/ruby-foreman-templates/ @theforeman/packaging @theforeman/foreman_templates
 /dependencies/*/hammer_cli_foreman_templates @theforeman/packaging @theforeman/foreman_templates
-/dependencies/*/apipie-* @theforeman/packaging @theforeman/cli
-/plugins/ruby-foreman-rescue/ @theforeman/packaging @theforeman/dm-drogeriemarkt
+
+# proxmox
+/plugins/*fog-proxmox/ @theforeman/packaging @theforeman/proxmox
+
+# puppet
+/plugins/*puppet/ @theforeman/packaging @theforeman/puppet
+
+# remote-execution
+/plugins/*remote*execution*/ @theforeman/packaging @theforeman/remote-execution
+/dependencies/*/*remote_execution*/ @theforeman/packaging @theforeman/remote-execution
+
+# salt
+/plugins/*salt/ @theforeman/packaging @theforeman/salt
+
+# webhooks
+/plugins/ruby-foreman-webhooks/ @theforeman/packaging @theforeman/webhooks
+/plugins/smart_proxy_shellhooks/ @theforeman/packaging @theforeman/webhooks
