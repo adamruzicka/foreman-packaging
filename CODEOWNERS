@@ -36,6 +36,7 @@
 
 # foreman-tasks
 /packages/plugins/rubygem-foreman-tasks/ @theforeman/packaging @theforeman/foreman-tasks
+/packages/plugins/rubygem-hammer_cli_foreman_tasks/ @theforeman/packaging @theforeman/foreman-tasks
 /packages/foreman/*dynflow*/ @theforeman/packaging @theforeman/foreman-tasks
 /packages/plugins/rubygem-smart_proxy_dynflow/ @theforeman/packaging @theforeman/foreman-tasks
 
